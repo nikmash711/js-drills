@@ -1,5 +1,5 @@
 function createGreeting(){
-    console.log("Hi, my name is Nikkie");
+    return "Hi, my name is Nikkie";
 }
 
-createGreeting();
+console.log(createGreeting());
