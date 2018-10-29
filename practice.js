@@ -1,5 +1,5 @@
-function createGreeting(){
-    return "Hi, my name is Nikkie";
+function createGreeting(name, age){
+    return `Hi my name is ${name} and I'm ${age} years old`;
 }
 
-console.log(createGreeting());
+console.log(createGreeting("Nikkie",23));
